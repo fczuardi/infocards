@@ -63,11 +63,14 @@
 	 * generally use this hook to add elements to <head> such
 	 * as styles, scripts, and meta tags.
 	 */
+	if ($post->post_name){
+   $extraclasses = 'slug-'.$post->post_name;
+	}
 	wp_head();
 ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class($extraclasses); ?>>
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
 			<hgroup>
