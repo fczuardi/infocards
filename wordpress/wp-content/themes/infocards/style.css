@@ -242,6 +242,7 @@ body.slug-pagina-exemplo{
 #colophon .sitemap .menu ul > li{
   float:left;
   padding-right:43px;
+  padding-bottom:43px;
 }
 #colophon .sitemap .menu ul ul{
   margin-top:9px;
