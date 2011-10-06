@@ -13,18 +13,18 @@
 	</div><!-- #main -->
 
 	<footer id="colophon" role="contentinfo">
-
-			<?php
-				/* A sidebar in the footer? Yep. You can can customize
-				 * your footer with three columns of widgets.
-				 */
-				get_sidebar( 'footer' );
-			?>
-
-			<div id="site-generator">
-				<?php do_action( 'twentyeleven_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'infocards' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'infocards' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'infocards' ), 'WordPress' ); ?></a>
-			</div>
+	  <div class="top">
+	    <ul>
+	      <li>Endereço: Av. São Gabriel, 495 1º Andar - São Paulo - SP</li>
+	      <li>|</li>
+	      <li>Email: contato@infocards.com.br</li>
+	      <li>|</li>
+	      <li>Fone: (11) 3079-1466</li>
+	    </ul>
+	  </div>
+	  <div class="sitemap">
+			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+	  </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
