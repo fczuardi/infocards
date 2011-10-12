@@ -12,5 +12,8 @@
 
 # Notas
 
+* permalink deve ser modificado para /%postname%
+* paginas iniciais feitas para funcionar com o plugin page_generator
+  * https://github.com/fczuardi/page_generator
 * submenu plugin (talvez)
   * http://wordpress.org/extend/plugins/gecka-submenu/
