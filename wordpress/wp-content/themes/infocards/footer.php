@@ -14,12 +14,12 @@
 
 	<footer id="colophon" role="contentinfo">
 	  <div class="top">
-	    <ul>
-	      <li>Endereço: Av. São Gabriel, 495 1º Andar - São Paulo - SP</li>
+	    <ul class="adr">
+	      <li>Endereço: <span class="street-address">Av. São Gabriel, 495 1º Andar</span> - <span class="locality">São Paulo</span> - <span class="region">SP</span></li>
 	      <li>|</li>
-	      <li>Email: contato@infocards.com.br</li>
+	      <li>Email: <a href="mailto:contato@infocards.com.br">contato@infocards.com.br</a></li>
 	      <li>|</li>
-	      <li>Fone: (11) 3079-1466</li>
+	      <li>Fone: <a class="tel" href="tel:+55-11-30791466">(11) 3079-1466</a></li>
 	    </ul>
 	  </div>
 	  <div class="sitemap">

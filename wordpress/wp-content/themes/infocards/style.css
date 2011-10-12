@@ -230,6 +230,9 @@ body.slug-pagina-exemplo{
   display:inline;
   padding:0px 12px;
 }
+#colophon .top a {
+  color:#fff;
+}
 #colophon .sitemap .menu{
 /*  width:878px;*/
   left:50%;
