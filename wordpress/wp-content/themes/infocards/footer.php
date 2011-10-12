@@ -23,7 +23,12 @@
 	    </ul>
 	  </div>
 	  <div class="sitemap">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			<?php wp_nav_menu( array( 
+                          'menu' => 'sitemap', 
+                          'container' => 'div', 
+                          'container_class' => 'menu', 
+                          'menu_class' => ''
+                          ) ); ?>
 	  </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
