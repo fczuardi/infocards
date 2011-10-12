@@ -886,11 +886,12 @@ blockquote.pull {
 	width: 33%;
 }
 .singular .entry-meta .edit-link a {
-	bottom: auto;
-	left: 50px;
-	position: absolute;
-	right: auto;
-	top: 80px;
+/*  bottom: auto;
+  left: 50px;
+  position: absolute;
+  right: auto;
+  top: 80px;
+*/
 }
 
 
