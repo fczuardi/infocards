@@ -98,13 +98,11 @@ footer, header, hgroup, menu, nav, section {
 
 /* =Debug
 ----------------------------------------------- */
-body{
-/*  background-repeat:no-repeat !important;
-  background-position:center -407px !important;
-*/
-}
 body.home{
-/*  background-image:url(images/layouts/01-home.png);*/
+/*  background-image:url(images/layouts/01-home.png);
+  background-repeat:no-repeat;
+  background-position:center -148px;
+*/
 }
 body.slug-pagina-exemplo{
 /*  background-image:url(images/layouts/02-infocards.png);*/
@@ -233,24 +231,29 @@ body.slug-pagina-exemplo{
   padding:0px 12px;
 }
 #colophon .sitemap .menu{
-  width:878px;
+/*  width:878px;*/
   left:50%;
   margin-left:-436px;
   margin-top:28px;
   position:absolute;
+  padding-bottom:43px;
 }
 #colophon .sitemap .menu ul > li{
   float:left;
-  padding-right:43px;
-  padding-bottom:43px;
+  padding-right:41px;
 }
 #colophon .sitemap .menu ul ul{
   margin-top:9px;
+}
+#colophon .sitemap .menu ul ul li{
+  float:none;
+  padding-right:0px;
 }
 #colophon .sitemap .menu ul ul a{
   color:#92c7e7;
   text-transform:none;
   font-weight:normal;
+  line-height:15px;
 }
 /* =Global
 ----------------------------------------------- */
