@@ -98,14 +98,10 @@ footer, header, hgroup, menu, nav, section {
 
 /* =Debug
 ----------------------------------------------- */
-body.home{
-/*  background-image:url(images/layouts/01-home.png);
-  background-repeat:no-repeat;
-  background-position:center -148px;
-*/
-}
-body.slug-pagina-exemplo{
+body.slug-sobre{
 /*  background-image:url(images/layouts/02-infocards.png);*/
+  background-repeat:no-repeat;
+  background-position:center 0px;
 }
 
 /* =Structure
@@ -215,7 +211,40 @@ body.slug-pagina-exemplo{
 	font-size:13px;
 	letter-spacing:0.1px;
 }
-
+#colophon .abas{
+  height:91px;
+  width:887px;
+  margin:auto;
+}
+#colophon .abas ul{
+  list-style:none;
+  margin:0px;
+}
+#colophon .abas ul li{
+  display:block;
+  float:left;
+  padding:24px 30px 9px 24px;
+  margin-right:24px;
+  background:#0071ab;
+  font-family: 'Museo-300';
+  font-size:18px;
+  opacity:0.5;
+  border-top-right-radius:10px;
+  border-top-left-radius:10px;
+}
+#colophon .abas ul li.last{
+  margin-right:0px;
+  opacity:1;
+}
+#colophon .abas ul li a,
+#colophon .abas ul li strong{
+  display:block;
+  font-family: 'Museo-300';
+  font-size:35px;
+  font-weight:normal;
+  margin:8px;
+  color:#fff;
+}
 #colophon .top{
   height:32px;
   background-color:#0071ab;
@@ -265,15 +294,78 @@ body {
 }
 
 body, input, textarea {
-	color: #373737;
-	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #555;
+  font: 14px "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 21px;
 	font-weight: 300;
-	line-height: 1.625;
 }
 #page {
   background: #dfeff8;
+/*  opacity:0.5;*/
+}
+.slug-home #page{
   background-image:url(images/bg-home-top.png);
   background-repeat:repeat-x;
+}
+article.page{
+  border-radius: 10px;
+  padding: 29px 21px 3px 33px;
+}
+body.slug-sobre article{
+  width:225px;
+  background-color:#92c7e7;
+  color:#fff;
+  float:left;
+  margin-right:20px;
+}
+body.slug-sobre article.slug-sobre{
+  margin-top:97px;
+  margin-right:0px;
+  margin-bottom:43px;
+  float:none;
+}
+body.slug-sobre article.slug-sobre,
+body.slug-sobre article.slug-diferenciais{
+  background-color:#fff;
+  color:#555;
+  width:auto;
+  margin-right:0px;
+}
+body.slug-sobre article.slug-diferenciais{
+  margin-bottom:65px;
+}
+body.slug-sobre article.slug-valores{
+  margin-right:0px;
+}
+article.slug-sobre .entry-header{
+  position:absolute;
+  background-image:url(images/logo_infocards_grande.png);
+  background-position:-19px;
+  background-repeat:no-repeat;
+  height:252px;
+  width:311px;
+  top:-91px;
+  overflow:hidden;
+}
+article.slug-sobre .entry-header .entry-title{
+  margin-top:-100px;
+}
+article .entry-content{
+  padding-top:14px;
+}
+article.slug-sobre .entry-content{
+  padding-top:137px;
+}
+article.slug-sobre p:first-child:first-letter{
+  font-size:35px;
+  font-family:'Museo-300';
+}
+
+.singular .entry-title {
+  font-size: 35px;
+  font-family: 'Museo-500';
+  font-weight: normal;
+  line-height: 35px;
 }
 
 /* Headings */
@@ -487,16 +579,16 @@ a:hover {
 }
 .entry-title {
 	clear: both;
-	color: #222;
-	font-size: 26px;
-	font-weight: bold;
-	line-height: 1.5em;
-	padding-bottom: .3em;
-	padding-top: 15px;
+/*  color: #222;*/
+/*  font-size: 26px;*/
+/*  font-weight: bold;*/
+/*  line-height: 1.5em;*/
+/*  padding-bottom: .3em;*/
+/*  padding-top: 15px;*/
 }
 .entry-title,
 .entry-title a {
-	color: #222;
+/*  color: #222;*/
 	text-decoration: none;
 }
 .entry-title a:hover,
@@ -518,7 +610,7 @@ a:hover {
 }
 .entry-content,
 .entry-summary {
-	padding: 1.625em 0 0;
+/*  padding: 1.625em 0 0;*/
 }
 .entry-content h1,
 .entry-content h2,
@@ -837,17 +929,12 @@ article.format-status .entry-content {
 /* Singular content styles for Posts and Pages */
 .singular .hentry {
 	border-bottom: none;
-	padding: 4.875em 0 0;
+/*  padding: 4.875em 0 0;*/
 	position: relative;
 }
 .singular.page .hentry {
-	padding: 3.5em 0 0;
-}
-.singular .entry-title {
-	color: #000;
-	font-size: 36px;
-	font-weight: bold;
-	line-height: 48px;
+/*  padding: 3.5em 0 0;
+*/
 }
 .singular .entry-title,
 .singular .entry-header .entry-meta {

@@ -11,8 +11,23 @@
 ?>
 
 	</div><!-- #main -->
-
 	<footer id="colophon" role="contentinfo">
+    <div class="abas">
+      <ul>
+        <li>
+          conheça nossos <a href="/produtos">Produtos</a>
+        </li>
+        <li>
+          conheça nossos <a href="/servicos">Serviços</a>
+        </li>
+        <li>
+          conheça nossos <a href="/clientes">Clientes</a>
+        </li>
+        <li class="last">
+          entre em <strong>Contato</strong>
+        </li>
+      </ul>
+    </div>
 	  <div class="top">
 	    <ul class="adr">
 	      <li>Endereço: <span class="street-address">Av. São Gabriel, 495 1º Andar</span> - <span class="locality">São Paulo</span> - <span class="region">SP</span></li>
