@@ -98,8 +98,8 @@ footer, header, hgroup, menu, nav, section {
 
 /* =Debug
 ----------------------------------------------- */
-body.slug-sobre{
-/*  background-image:url(images/layouts/02-infocards.png);*/
+body.slug-servicos{
+/*  background-image:url(images/layouts/04-serviços.png);*/
   background-repeat:no-repeat;
   background-position:center 0px;
 }
@@ -210,6 +210,7 @@ body.slug-sobre{
 	color:#fff;
 	font-size:13px;
 	letter-spacing:0.1px;
+	margin-top:53px;
 }
 #colophon .abas{
   height:91px;
@@ -227,7 +228,7 @@ body.slug-sobre{
   margin-right:24px;
   background:#0071ab;
   font-family: 'Museo-300';
-  font-size:18px;
+  font-size:16px;
   opacity:0.5;
   border-top-right-radius:10px;
   border-top-left-radius:10px;
@@ -307,13 +308,23 @@ body, input, textarea {
   background: #dfeff8;
 /*  opacity:0.5;*/
 }
+#primary {
+  margin-top:48px;
+}
 .slug-home #page{
   background-image:url(images/bg-home-top.png);
   background-repeat:repeat-x;
 }
 article.page{
   border-radius: 10px;
-  padding: 29px 21px 3px 33px;
+  padding: 29px 23px 7px 32px;
+  background-color:#fff;
+  width:823px;
+  margin-left:-3px;
+  margin-bottom:20px;
+}
+article.page .entry-content{
+  margin-top:1px;
 }
 body.slug-sobre article{
   width:225px;
@@ -354,7 +365,7 @@ article.slug-sobre .entry-header{
 article.slug-sobre .entry-header .entry-title{
   margin-top:-100px;
 }
-article .entry-content{
+body.slug-sobre article .entry-content{
   padding-top:14px;
 }
 article.slug-sobre .entry-content{
@@ -364,7 +375,10 @@ article.slug-sobre p:first-child:first-letter{
   font-size:35px;
   font-family:'Museo-300';
 }
-
+article.slug-servicos,
+article.slug-produtos{
+  display:none;
+}
 .singular .entry-title {
   font-size: 35px;
   font-family: 'Museo-500';
@@ -563,10 +577,11 @@ a:hover {
 }
 .hentry,
 .no-results {
-	border-bottom: 1px solid #ddd;
-	margin: 0 0 1.625em;
-	padding: 0 0 1.625em;
-	position: relative;
+/*  border-bottom: 1px solid #ddd;
+  margin: 0 0 1.625em;
+  padding: 0 0 1.625em;
+  position: relative;
+*/
 }
 .hentry:last-child,
 .no-results {
