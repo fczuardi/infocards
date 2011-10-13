@@ -21,9 +21,26 @@ get_header(); ?>
 
 				<?php get_template_part( 'content', 'page' ); ?>
 
-				<?php comments_template( '', true ); ?>
+				<?php 
+				//comments_template( '', true ); 
+				?>
 
 			</div><!-- #content -->
 		</div><!-- #primary -->
+<?php 
+// Child pages
+$pageid = get_the_ID(); 
+$my_query = new WP_Query( "post_parent=$pageid&post_type='page'&orderby=menu_order&order=ASC" );
+if ( $my_query->have_posts() ) { 
+   while ( $my_query->have_posts() ) { 
+       $my_query->the_post(); ?>
+<div>
+  <?php get_template_part( 'content', 'page' ); ?>
+</div>
+<?php
+   }
+}
+wp_reset_postdata();
+?>
 
 <?php get_footer(); ?>
