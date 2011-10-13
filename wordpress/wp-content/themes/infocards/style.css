@@ -245,6 +245,10 @@ body.slug-sobre{
   margin:8px;
   color:#fff;
 }
+body.slug-home #colophon .abas{
+  display:none;
+}
+
 #colophon .top{
   height:32px;
   background-color:#0071ab;
