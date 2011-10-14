@@ -469,7 +469,7 @@ article.has-attachments{
 blockquote {
   background-color:#f4f9fd;
 /*  background-color:red;*/
-  margin: 0 10px 0 -2px;
+  margin: 0 10px 23px -2px;
   border-radius:12px;
   padding: 26px 28px;
 }
