@@ -225,7 +225,7 @@ body.slug-servicos{
 #colophon .abas ul li{
   display:block;
   float:left;
-  padding:24px 30px 9px 24px;
+  padding:24px 30px 9px 32px;
   margin-right:24px;
   background:#0071ab;
   font-family: 'Museo-300';
@@ -245,6 +245,7 @@ body.slug-servicos{
   font-size:35px;
   font-weight:normal;
   margin:8px;
+  margin-left:0px;
   color:#fff;
 }
 body.slug-home #colophon .abas{
