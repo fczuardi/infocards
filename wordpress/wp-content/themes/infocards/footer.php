@@ -15,13 +15,13 @@
     <div class="abas">
       <ul>
         <li <?php if ($post->post_name == 'produtos'){ echo 'class="disabled"';} ?>>
-          conheça nossos <a href="/produtos">Produtos</a>
+          conheça nossos <a href="<?php echo esc_url( home_url( '/produtos' ) ); ?>">Produtos</a>
         </li>
         <li <?php if ($post->post_name == 'servicos'){ echo 'class="disabled"';} ?>>
-          conheça nossos <a href="/servicos">Serviços</a>
+          conheça nossos <a href="<?php echo esc_url( home_url( '/servicos' ) ); ?>">Serviços</a>
         </li>
         <li <?php if ($post->post_name == 'clientes'){ echo 'class="disabled"';} ?>>
-          conheça nossos <a href="/clientes">Clientes</a>
+          conheça nossos <a href="<?php echo esc_url( home_url( '/clientes' ) ); ?>">Clientes</a>
         </li>
         <li class="last">
           entre em <strong>Contato</strong>
