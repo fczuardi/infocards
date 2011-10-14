@@ -391,6 +391,7 @@ body.slug-sobre article{
   color:#fff;
   float:left;
   margin-right:20px;
+  clear:none;
 }
 body.slug-sobre article.slug-sobre{
   margin-top:97px;
