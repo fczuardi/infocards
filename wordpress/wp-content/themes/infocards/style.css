@@ -111,9 +111,9 @@ a:hover {
 
 /* =Debug
 ----------------------------------------------- */
-body.slug-tecnologia{
-/*  background-image:url(images/layouts/05-tecnologia.png);
-  background-position:center 0px;
+body.slug-clientes{
+/*  background-image:url(images/layouts/06-clientes-e-cases.png);
+  background-position:center 80px;
   background-repeat:no-repeat;
 */
 }
@@ -341,7 +341,7 @@ body, input, textarea {
 }
 article.slug-tecnologia .entry-content section,
 article.page{
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 29px 23px 7px 32px;
   background-color:#fff;
 /*  background-color:red;*/
@@ -465,6 +465,33 @@ article.has-attachments{
   clear:none;
 }
 
+/* Quotes */
+blockquote {
+  background-color:#f4f9fd;
+/*  background-color:red;*/
+  margin: 0 10px 0 -2px;
+  border-radius:12px;
+  padding: 26px 28px;
+}
+.entry-content blockquote h3,
+.entry-content blockquote h4{
+  color:#000;
+  font-size:16px;
+}
+.entry-content blockquote h3{
+  font-family:'Museo-500';
+  line-height:16px;
+  text-transform:none;
+  letter-spacing:-1px;
+}
+.entry-content blockquote h4{
+  font-family:'Museo-300';
+  margin-bottom:20px;
+}
+.entry-content blockquote p{
+  font-style:italic;
+}
+
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
 	clear: both;
@@ -512,25 +539,6 @@ dd {
 }
 strong {
 	font-weight: bold;
-}
-cite, em, i {
-	font-style: italic;
-}
-blockquote {
-	font-family: Georgia, "Bitstream Charter", serif;
-	font-style: italic;
-	font-weight: normal;
-	margin: 0 3em;
-}
-blockquote em, blockquote i, blockquote cite {
-	font-style: normal;
-}
-blockquote cite {
-	color: #666;
-	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 300;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
 }
 pre {
 	background: #f4f4f4;
