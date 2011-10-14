@@ -11,6 +11,20 @@
 if ($post->post_name){
  $extraclasses = 'slug-'.$post->post_name;
 }
+$args = array( 'post_type' => 'attachment', 'numberposts' => -1, 'post_status' => null, 'post_parent' => $post->ID ); 
+$attachments = get_posts($args);
+if ($attachments) { 
+  $extraclasses .= ' has-attachments';
+  ?>
+  <ul class="post-attachments">
+  <?php
+  foreach ( $attachments as $attachment ) { ?>
+    <li><?php echo wp_get_attachment_image( $attachment->ID , 'full' ); ?></li>
+  <?php
+  } ?>
+  </ul>
+<?php
+}
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class($extraclasses); ?>>
 	<header class="entry-header">

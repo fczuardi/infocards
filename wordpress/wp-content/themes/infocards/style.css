@@ -98,10 +98,10 @@ footer, header, hgroup, menu, nav, section {
 
 /* =Debug
 ----------------------------------------------- */
-body.slug-servicos{
-/*  background-image:url(images/layouts/04-serviços.png);*/
+body.slug-clientes{
+/*  background-image:url(images/layouts/06-clientes-e-cases.png);*/
+/*  background-position:center -128px;*/
   background-repeat:no-repeat;
-  background-position:center 0px;
 }
 
 /* =Structure
@@ -110,6 +110,7 @@ body.slug-servicos{
   width:100%;
   min-width:966px;
   overflow:hidden;
+/*  opacity:0.5;*/
 }
 #main {
   clear: both;
@@ -324,6 +325,7 @@ article.page{
   width:823px;
   margin-left:-3px;
   margin-bottom:20px;
+  clear:both;
 }
 article.page .entry-content{
   margin-top:1px;
@@ -386,6 +388,24 @@ article.slug-produtos{
   font-family: 'Museo-500';
   font-weight: normal;
   line-height: 35px;
+}
+
+
+/* Media Attachment on pages */
+.post-attachments{
+  width:278px;
+  margin:0;
+  float:left;
+  list-style:none;
+  margin-left:-3px;
+}
+.post-attachments li{
+  margin-bottom:22px;
+}
+article.has-attachments{
+  float:right;
+  width:526px;
+  clear:none;
 }
 
 /* Headings */
