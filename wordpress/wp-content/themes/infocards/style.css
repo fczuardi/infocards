@@ -214,7 +214,7 @@ body.slug-servicos{
 }
 #colophon .abas{
   height:91px;
-  width:887px;
+  width:900px;
   margin:auto;
 }
 #colophon .abas ul{
@@ -368,7 +368,7 @@ article.slug-sobre .entry-header .entry-title{
 body.slug-sobre article .entry-content{
   padding-top:14px;
 }
-article.slug-sobre .entry-content{
+body.slug-sobre article.slug-sobre .entry-content{
   padding-top:137px;
 }
 article.slug-sobre p:first-child:first-letter{
