@@ -96,12 +96,26 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+/* Links */
+a {
+	color: #2d84c1;
+	text-decoration: none;
+}
+a:focus,
+a:active,
+a:hover {
+	text-decoration: underline;
+}
+
+
+
 /* =Debug
 ----------------------------------------------- */
-body.slug-clientes{
-/*  background-image:url(images/layouts/06-clientes-e-cases.png);*/
-/*  background-position:center -128px;*/
+body.slug-tecnologia{
+/*  background-image:url(images/layouts/05-tecnologia.png);
+  background-position:center 0px;
   background-repeat:no-repeat;
+*/
 }
 
 /* =Structure
@@ -309,7 +323,6 @@ body, input, textarea {
 }
 #page {
   background: #dfeff8;
-/*  opacity:0.5;*/
 }
 #primary {
   margin-top:48px;
@@ -318,14 +331,48 @@ body, input, textarea {
   background-image:url(images/bg-home-top.png);
   background-repeat:repeat-x;
 }
+article.slug-tecnologia .entry-content section,
 article.page{
   border-radius: 10px;
   padding: 29px 23px 7px 32px;
   background-color:#fff;
+/*  background-color:red;*/
   width:823px;
   margin-left:-3px;
   margin-bottom:20px;
   clear:both;
+}
+article.slug-tecnologia{
+  background:none;
+  padding:0px;
+  width:auto;
+  margin:0px;
+}
+article.slug-tecnologia .entry-content section{
+  padding-top:25px;
+}
+article.slug-tecnologia .entry-content section.first{
+  padding-bottom:26px;
+}
+article.slug-tecnologia .entry-content .entry-title{
+  margin-bottom:0px;
+}
+.entry-content h3,
+.comment-content h3 {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+/*  line-height: 2.6em;*/
+}
+article.slug-tecnologia .infografico{
+  width:891;
+  padding:409px 150px 16px;
+  background-image:url(images/tecnologia.png);
+  background-repeat:no-repeat;
+  margin-top:52px;
+  margin-left:-7px;
+  text-align:center;
+  color:#2d84c1;
 }
 article.page .entry-content{
   margin-top:1px;
@@ -379,6 +426,7 @@ article.slug-sobre p:first-child:first-letter{
   font-size:35px;
   font-family:'Museo-300';
 }
+article.slug-tecnologia .entry-header,
 article.slug-servicos,
 article.slug-produtos{
   display:none;
@@ -548,17 +596,6 @@ input#searchsubmit {
 	display: none;
 }
 
-/* Links */
-a {
-	color: #1982d1;
-	text-decoration: none;
-}
-a:focus,
-a:active,
-a:hover {
-	text-decoration: underline;
-}
-
 /* Assistive text */
 .assistive-text {
 	position: absolute !important;
@@ -660,13 +697,6 @@ a:hover {
 	color: #000;
 	font-weight: bold;
 	margin: 0 0 .8125em;
-}
-.entry-content h3,
-.comment-content h3 {
-	font-size: 10px;
-	letter-spacing: 0.1em;
-	line-height: 2.6em;
-	text-transform: uppercase;
 }
 .entry-content table,
 .comment-content table {
