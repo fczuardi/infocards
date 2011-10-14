@@ -226,7 +226,7 @@ body.slug-tecnologia{
 	color:#fff;
 	font-size:13px;
 	letter-spacing:0.1px;
-	margin-top:53px;
+	padding-top:53px;
 }
 #colophon .abas{
   height:91px;
@@ -407,7 +407,7 @@ body.slug-sobre article.slug-diferenciais{
   margin-right:0px;
 }
 body.slug-sobre article.slug-diferenciais{
-  margin-bottom:65px;
+/*  margin-bottom:65px;*/
 }
 body.slug-sobre article.slug-valores{
   margin-right:0px;
