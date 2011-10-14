@@ -242,16 +242,24 @@ body.slug-tecnologia{
   float:left;
   padding:24px 30px 9px 32px;
   margin-right:24px;
-  background:#0071ab;
+  background:#92c7e7;
   font-family: 'Museo-300';
   font-size:16px;
-  opacity:0.5;
   border-top-right-radius:10px;
   border-top-left-radius:10px;
 }
 #colophon .abas ul li.last{
   margin-right:0px;
-  opacity:1;
+  background:#167db3;
+}
+#colophon .abas ul li.disabled{
+  opacity:0.5;
+}
+#colophon .abas ul li.disabled a{
+  cursor:default;
+}
+#colophon .abas ul li.disabled a:hover{
+  text-decoration:none;
 }
 #colophon .abas ul li a,
 #colophon .abas ul li strong{

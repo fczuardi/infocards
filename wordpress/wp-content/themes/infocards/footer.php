@@ -14,13 +14,13 @@
 	<footer id="colophon" role="contentinfo">
     <div class="abas">
       <ul>
-        <li>
+        <li <?php if ($post->post_name == 'produtos'){ echo 'class="disabled"';} ?>>
           conheça nossos <a href="/produtos">Produtos</a>
         </li>
-        <li>
+        <li <?php if ($post->post_name == 'servicos'){ echo 'class="disabled"';} ?>>
           conheça nossos <a href="/servicos">Serviços</a>
         </li>
-        <li>
+        <li <?php if ($post->post_name == 'clientes'){ echo 'class="disabled"';} ?>>
           conheça nossos <a href="/clientes">Clientes</a>
         </li>
         <li class="last">
