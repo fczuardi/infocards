@@ -176,6 +176,7 @@ body.slug-servicos{
   height:32px;
   width:966px;
   margin: auto;
+  overflow:hidden;
 }
 #access .menu{
   margin-left:143px;
