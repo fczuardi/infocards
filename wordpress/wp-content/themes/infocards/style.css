@@ -411,7 +411,7 @@ body.slug-home #destaques ul li div a{
 }
 /*botao saiba mais*/
 body.slug-home #destaques ul li div a{
-  top:128px;
+  top:130px;
   background-image:url(images/saiba_mais.png);
 }
 /*parte de baixo*/
@@ -524,7 +524,7 @@ article.slug-tecnologia .entry-content .entry-title{
 .entry-content h3,
 .comment-content h3 {
   font-size: 10px;
-  letter-spacing: 1.5px;
+/*  letter-spacing: 1.5px;*/
   text-transform: uppercase;
 /*  line-height: 2.6em;*/
 }
@@ -638,7 +638,7 @@ blockquote {
   font-family:'Museo-500';
   line-height:16px;
   text-transform:none;
-  letter-spacing:-1px;
+/*  letter-spacing:-1px;*/
 }
 .entry-content blockquote h4{
   font-family:'Museo-300';
