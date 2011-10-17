@@ -394,7 +394,7 @@ body.slug-home #destaques h1{
 body.slug-home #destaques h3{
   font: 14px "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform:uppercase;
-  letter-spacing:0.4px;
+  letter-spacing:1px;
   margin-left:5px;
   margin-top:9px;
 }
