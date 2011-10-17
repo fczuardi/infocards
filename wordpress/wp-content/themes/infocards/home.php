@@ -59,13 +59,14 @@ foreach ($secoes_IDs as $parentID){
           <?php if(isset($destaque->picture) && isset($destaque->reflection)){ 
           echo wp_get_attachment_image( $destaque->picture->ID , 'full', 0, array('class'=>"") );
           echo wp_get_attachment_image( $destaque->reflection->ID , 'full', 0, array('class'=>"reflection") ); ?>
+          <div class="more-btn-reflection with-picture"></div>
           <div class="with-picture">
           <?php }else{?>
+          <div class="more-btn-reflection"></div>
           <div>
           <?php }?>
             <?php echo $destaque->post_content; ?>
           </div>
-          <div class="more-btn-reflection with-picture"></div>
         </li>
       <?php
         $is_first = FALSE;
