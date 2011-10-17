@@ -330,10 +330,8 @@ body.slug-home #colophon .abas{
 /* ==Home:Destaques Carrocel */
 /*base*/
 body.slug-home #destaques{
-  height:348px;
-/*  margin-top:72px;*/
-  margin-bottom: 60px;
-/*  margin-bottom:36px;*/
+  height:358px;
+  margin-bottom: 50px;
   background-image:url(images/base_down.png);
   position:relative;
   overflow:hidden;
@@ -349,15 +347,23 @@ body.slug-home #destaques ul{
   list-style:none;
   margin:0px 31px 0 81px;
   width:5000%;
+  left:0px;
+  -moz-transition-property:     left;
+  -webkit-transition-property:  left;
+  -webkit-transition-duration:  1s;
+  -moz-transition-duration:     1s;
 }
 body.slug-home #destaques ul li{
   float:left;
   position:relative;
   width:770px;
   height:312px;
-/*  border:1px solid red;*/
   white-space:nowrap;
   opacity:0;
+  -moz-transition-property:     opacity;
+  -webkit-transition-property:  opacity;
+  -webkit-transition-duration:  0.5s;
+  -moz-transition-duration:     0.5s;
 }
 body.slug-home #destaques ul li.active{
   opacity:1;
@@ -436,7 +442,37 @@ body.slug-home #base-cover{
   width:100%;
   background-image:url(images/base_up.png);
 }
-
+/*paginação*/
+body.slug-home #destaques nav{
+  position:absolute;
+  bottom:1px;
+  right:45px;
+  z-index:5;
+  text-align:right;
+  padding:0px;
+}
+body.slug-home #destaques nav ol{
+  list-style:none;
+  margin:0px;
+}
+body.slug-home #destaques nav li{
+  display:block;
+  float:left;
+  margin-left:8px;
+}
+body.slug-home #destaques nav li a{
+  display:block;
+  height:0px;
+  padding-top:20px;
+  width:12px;
+  overflow:hidden;
+  background-repeat:no-repeat;
+  background-position:bottom;
+  background-image:url(images/dot.png);
+}
+body.slug-home #destaques nav li a.active{
+  background-image:url(images/dot-selected.png);
+}
 /* ==Home:caixas brancas */
 body.slug-home .box{
   background-color:#fff;

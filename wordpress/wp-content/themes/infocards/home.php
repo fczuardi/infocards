@@ -2,10 +2,15 @@
 /**
  * Template Name: Infocards Home
  */
+
+wp_enqueue_script( 'infocards-destaques', get_template_directory_uri() . '/js/destaques.js', array( 'jquery' ), '2011-10-17' );
 get_header();
 ?>
 <?php
 $args = array(
+  'post_status' => 'publish',
+  'order' => 'DESC',
+  'orderby' => 'modified',
   'tax_query' => array( array(
       'taxonomy' => 'post_format',
       'field' => 'slug',
@@ -14,6 +19,9 @@ $args = array(
 );
 $destaques = query_posts( $args );
 foreach ($destaques as $destaque){
+  if (preg_match('@href=[\"\']([^"\']*)@i', $destaque->post_content, $matches)){
+    $destaque->first_link = $matches[1];
+  }
   $args = array( 'post_type' => 'attachment', 'numberposts' => 2, 'post_status' => null, 'post_parent' => $destaque->ID ); 
   $attachments = get_posts($args);
   foreach ($attachments as $attachment){
@@ -53,9 +61,8 @@ foreach ($secoes_IDs as $parentID){
   <div id="content" role="main">
     <div id="destaques">
       <ul><?php
-      $is_first = TRUE;
-      foreach ($destaques as $destaque){?>
-        <li <?php if ($is_first){ echo 'class="active"';}?>>
+      foreach ($destaques as $index=>$destaque){?>
+        <li class="panel <?php echo $index; if ($index == 0){ echo ' active';}?>">
           <?php if(isset($destaque->picture) && isset($destaque->reflection)){ 
           echo wp_get_attachment_image( $destaque->picture->ID , 'full', 0, array('class'=>"") );
           echo wp_get_attachment_image( $destaque->reflection->ID , 'full', 0, array('class'=>"reflection") ); ?>
@@ -69,11 +76,18 @@ foreach ($secoes_IDs as $parentID){
           </div>
         </li>
       <?php
-        $is_first = FALSE;
       }
       ?>
       </ul>
       <div id="base-cover"></div>
+      <nav>
+        <ol><?php
+        foreach ($destaques as $index=>$destaque){?>
+          <li><a data-index="<?php echo $index; ?>" href="<?php echo $destaque->first_link; ?>" class="<?php if($index == 0){echo 'active';}?>">o</a></li>
+        <?php 
+        } ?>
+        </ol>
+      </nav>
     </div>
     <div class="box" id="produtos">
       <h3>conheça nossos</h3>
