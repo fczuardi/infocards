@@ -111,7 +111,7 @@ a:hover {
 
 /* =Debug
 ----------------------------------------------- */
-body.home{
+body.slug-home{
 /*  background-image:url(images/layouts/01-home.png);
   background-position:center 0px;
   background-repeat:no-repeat;
@@ -237,13 +237,13 @@ body.home{
   list-style:none;
   margin:0px;
 }
-body.home h3,
+body.slug-home h3,
 #colophon .abas ul li{
   font-family: 'Museo-300';
   font-size:16px;
   font-weight:normal;
 }
-body.home h2 a,
+body.slug-home h2 a,
 #colophon .abas ul li a,
 #colophon .abas ul li strong{
   font-family: 'Museo-300';
@@ -279,7 +279,7 @@ body.home h2 a,
   margin-left:0px;
   color:#fff;
 }
-body.home #colophon .abas{
+body.slug-home #colophon .abas{
   display:none;
 }
 
@@ -327,45 +327,45 @@ body.home #colophon .abas{
 }
 /* =Home
 ----------------------------------------------- */
-body.home #destaques{
+body.slug-home #destaques{
   height:350px;
   background:rgba(255,0,0,0);
   margin-top:70px;
   margin-bottom:36px;
 }
-body.home .box{
+body.slug-home .box{
   background-color:#fff;
   border-radius:12px;
   padding:25px 10px 30px 40px;
   float:left;
 }
-body.home #produtos{
+body.slug-home #produtos{
   padding-left:31px;
   width:195px;
   margin-right:44px;
 }
-body.home #servicos{
+body.slug-home #servicos{
   padding-left:36px;
   width:268px;
   margin-right:42px;
 }
-body.home #clientes{
+body.slug-home #clientes{
   width:189px;
   margin-right:0px;
   clear:right;
 }
-body.home h2 a{
+body.slug-home h2 a{
   margin-top:7px;
   margin-left:-2px;
   color:#000;
 }
-body.home .box ul{
+body.slug-home .box ul{
   margin:24px 0px 0px 9px;
   text-transform:uppercase;
   font-size:12px;
   letter-spacing:0.2px;
 }
-body.home .box ul li a{
+body.slug-home .box ul li a{
   color:#4c4c4c;
 }
 /* =Global
@@ -386,7 +386,7 @@ body, input, textarea {
 #primary {
   margin-top:48px;
 }
-.home #page{
+.slug-home #page{
   background-image:url(images/bg-home-top.png);
   background-repeat:repeat-x;
 }
