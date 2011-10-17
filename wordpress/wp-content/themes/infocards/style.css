@@ -111,9 +111,9 @@ a:hover {
 
 /* =Debug
 ----------------------------------------------- */
-body.slug-clientes{
-/*  background-image:url(images/layouts/06-clientes-e-cases.png);
-  background-position:center 80px;
+body.slug-home{
+/*  background-image:url(images/layouts/01-home.png);
+  background-position:center 0px;
   background-repeat:no-repeat;
 */
 }
@@ -237,14 +237,26 @@ body.slug-clientes{
   list-style:none;
   margin:0px;
 }
+body.slug-home h3,
+#colophon .abas ul li{
+  font-family: 'Museo-300';
+  font-size:16px;
+  font-weight:normal;
+}
+body.slug-home h2 a,
+#colophon .abas ul li a,
+#colophon .abas ul li strong{
+  font-family: 'Museo-300';
+  font-size:35px;
+  font-weight:normal;
+  display:block;
+}
 #colophon .abas ul li{
   display:block;
   float:left;
   padding:24px 30px 9px 32px;
   margin-right:24px;
   background:#92c7e7;
-  font-family: 'Museo-300';
-  font-size:16px;
   border-top-right-radius:10px;
   border-top-left-radius:10px;
 }
@@ -263,10 +275,6 @@ body.slug-clientes{
 }
 #colophon .abas ul li a,
 #colophon .abas ul li strong{
-  display:block;
-  font-family: 'Museo-300';
-  font-size:35px;
-  font-weight:normal;
   margin:8px;
   margin-left:0px;
   color:#fff;
@@ -317,6 +325,49 @@ body.slug-home #colophon .abas{
   font-weight:normal;
   line-height:15px;
 }
+/* =Home
+----------------------------------------------- */
+body.slug-home #destaques{
+  height:350px;
+  background:rgba(255,0,0,0);
+  margin-top:70px;
+  margin-bottom:36px;
+}
+body.slug-home .box{
+  background-color:#fff;
+  border-radius:12px;
+  padding:25px 10px 30px 40px;
+  float:left;
+}
+body.slug-home #produtos{
+  padding-left:31px;
+  width:195px;
+  margin-right:44px;
+}
+body.slug-home #servicos{
+  padding-left:36px;
+  width:268px;
+  margin-right:42px;
+}
+body.slug-home #clientes{
+  width:189px;
+  margin-right:0px;
+  clear:right;
+}
+body.slug-home h2 a{
+  margin-top:7px;
+  margin-left:-2px;
+  color:#000;
+}
+body.slug-home .box ul{
+  margin:24px 0px 0px 9px;
+  text-transform:uppercase;
+  font-size:12px;
+  letter-spacing:0.2px;
+}
+body.slug-home .box ul li a{
+  color:#4c4c4c;
+}
 /* =Global
 ----------------------------------------------- */
 body {
@@ -344,7 +395,6 @@ article.page{
   border-radius: 12px;
   padding: 29px 23px 7px 32px;
   background-color:#fff;
-/*  background-color:red;*/
   width:823px;
   margin-left:-3px;
   margin-bottom:20px;
