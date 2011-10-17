@@ -5,6 +5,26 @@
 get_header();
 ?>
 <?php
+$args = array(
+  'tax_query' => array( array(
+      'taxonomy' => 'post_format',
+      'field' => 'slug',
+      'terms' => 'post-format-link'
+    ))
+);
+$destaques = query_posts( $args );
+foreach ($destaques as $destaque){
+  $args = array( 'post_type' => 'attachment', 'numberposts' => 2, 'post_status' => null, 'post_parent' => $destaque->ID ); 
+  $attachments = get_posts($args);
+  foreach ($attachments as $attachment){
+    if (($attachment->post_excerpt == 'reflexo') || (strrpos($attachment->post_name, '_reflexo') !== FALSE)){
+      $destaque->reflection = $attachment;
+    }else {
+      $destaque->picture = $attachment;
+    }
+  }
+}
+
 function getPageId($slug){
   $args=array(
     'name' => $slug,
@@ -32,6 +52,27 @@ foreach ($secoes_IDs as $parentID){
 <div id="primary">
   <div id="content" role="main">
     <div id="destaques">
+      <ul><?php
+      $is_first = TRUE;
+      foreach ($destaques as $destaque){?>
+        <li <?php if ($is_first){ echo 'class="active"';}?>>
+          <?php if(isset($destaque->picture) && isset($destaque->reflection)){ 
+          echo wp_get_attachment_image( $destaque->picture->ID , 'full', 0, array('class'=>"") );
+          echo wp_get_attachment_image( $destaque->reflection->ID , 'full', 0, array('class'=>"reflection") ); ?>
+          <div class="more-btn-reflection with-picture"></div>
+          <div class="with-picture">
+          <?php }else{?>
+          <div>
+          <?php }?>
+            <?php echo $destaque->post_content; ?>
+          </div>
+        </li>
+      <?php
+        $is_first = FALSE;
+      }
+      ?>
+      </ul>
+      <div id="base-cover"></div>
     </div>
     <div class="box" id="produtos">
       <h3>conheça nossos</h3>

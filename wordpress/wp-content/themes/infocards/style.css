@@ -124,7 +124,7 @@ body.slug-home{
   width:100%;
   min-width:966px;
   overflow:hidden;
-/*  opacity:0.5;*/
+/*  opacity:0.9;*/
 }
 #main {
   clear: both;
@@ -327,12 +327,113 @@ body.slug-home #colophon .abas{
 }
 /* =Home
 ----------------------------------------------- */
+/* ==Home:Destaques Carrocel */
+/*base*/
 body.slug-home #destaques{
-  height:350px;
-  background:rgba(255,0,0,0);
-  margin-top:70px;
-  margin-bottom:36px;
+  height:348px;
+  margin-top:72px 33px 36px;
+/*  margin-bottom:36px;*/
+  background-image:url(images/base_down.png);
+  position:relative;
+  overflow:hidden;
 }
+body.slug-home #destaques,
+body.slug-home #base-cover{
+  background-repeat:no-repeat;
+  background-position:center 165px;
+}
+/*itens*/
+body.slug-home #destaques ul{
+  position:relative;
+  list-style:none;
+  margin:0px 31px 0 81px;
+  width:5000%;
+}
+body.slug-home #destaques ul li{
+  float:left;
+  position:relative;
+  width:770px;
+  height:312px;
+/*  border:1px solid red;*/
+  white-space:nowrap;
+  opacity:0;
+}
+body.slug-home #destaques ul li.active{
+  opacity:1;
+}
+/*parte de cima*/
+body.slug-home #destaques ul li img,
+body.slug-home #destaques ul li div{
+  position:absolute;
+  z-index:4;
+  top:23px;
+}
+body.slug-home #destaques ul li div.with-picture{
+  left:347px;
+  max-width:380px;
+}
+body.slug-home #destaques h1,
+body.slug-home #destaques h2{
+  font-family:'Museo-300';
+}
+body.slug-home #destaques h2{
+  font-size:20px;
+  margin-top:4px;
+  margin-left:2px;
+  font-size:25px;
+}
+body.slug-home #destaques h1{
+  font-size:59px;
+  line-height:59px;
+  margin-top:1px;
+  margin-left:-2px;
+}
+body.slug-home #destaques h3{
+  font: 14px "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:0.4px;
+  margin-left:5px;
+  margin-top:8px;
+}
+/*botao saiba mais e reflexo*/
+body.slug-home #destaques ul li .more-btn-reflection,
+body.slug-home #destaques ul li div a{
+  position:absolute;
+  height:25px;
+  padding-left:98px;
+  width:0px;
+  overflow:hidden;
+  background-repeat:no-repeat;
+}
+/*botao saiba mais*/
+body.slug-home #destaques ul li div a{
+  top:129px;
+  background-image:url(images/saiba_mais.png);
+}
+/*parte de baixo*/
+body.slug-home #destaques ul li .more-btn-reflection,
+body.slug-home #destaques ul li img.reflection{
+  z-index:2;
+}
+/*reflexo da imagem*/
+body.slug-home #destaques ul li img.reflection{
+  top:242px;
+}
+/*reflexo do botao*/
+body.slug-home #destaques ul li .more-btn-reflection{
+  top:273px;
+  background-image:url(images/saiba_mais_reflexo.png);
+}
+/*tampa que vai por cima dos reflexos mas por baixo da imagem e texto*/
+body.slug-home #base-cover{
+  position:absolute;
+  z-index:3;
+  height:100%;
+  width:100%;
+  background-image:url(images/base_up.png);
+}
+
+/* ==Home:caixas brancas */
 body.slug-home .box{
   background-color:#fff;
   border-radius:12px;
@@ -368,6 +469,7 @@ body.slug-home .box ul{
 body.slug-home .box ul li a{
   color:#4c4c4c;
 }
+
 /* =Global
 ----------------------------------------------- */
 body {

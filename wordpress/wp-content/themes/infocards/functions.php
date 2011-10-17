@@ -38,8 +38,6 @@
  * @since Twenty Eleven 1.0
  */
 
-require( dirname( __FILE__ ) . '/functions.infocards.php' );
-
 /**
  * Set the content width based on the theme's design and stylesheet.
  */
@@ -74,7 +72,6 @@ if ( ! function_exists( 'twentyeleven_setup' ) ):
  * @since Twenty Eleven 1.0
  */
 function twentyeleven_setup() {
-
 	/* Make Twenty Eleven available for translation.
 	 * Translations can be added to the /languages/ directory.
 	 * If you're building a theme based on Twenty Eleven, use a find and replace
@@ -508,4 +505,6 @@ function twentyeleven_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'twentyeleven_body_classes' );
+
+require( dirname( __FILE__ ) . '/functions.infocards.php' );
 
