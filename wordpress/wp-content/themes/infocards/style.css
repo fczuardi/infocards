@@ -112,10 +112,10 @@ a:hover {
 /* =Debug
 ----------------------------------------------- */
 body.slug-home{
-/*  background-image:url(images/layouts/01-home.png);
+  background-image:url(images/layouts/01-home.png);
   background-position:center 0px;
   background-repeat:no-repeat;
-*/
+
 }
 
 /* =Structure
@@ -124,7 +124,7 @@ body.slug-home{
   width:100%;
   min-width:966px;
   overflow:hidden;
-/*  opacity:0.9;*/
+  opacity:0.5;
 }
 #main {
   clear: both;
@@ -340,7 +340,7 @@ body.slug-home #destaques{
 body.slug-home #destaques,
 body.slug-home #base-cover{
   background-repeat:no-repeat;
-  background-position:center 165px;
+  background-position:center 190px;
 }
 /*itens*/
 body.slug-home #destaques ul{
@@ -372,28 +372,27 @@ body.slug-home #destaques ul li div.with-picture{
   left:347px;
   max-width:380px;
 }
-body.slug-home #destaques h1,
 body.slug-home #destaques h2{
   font-family:'Museo-300';
-}
-body.slug-home #destaques h2{
   font-size:20px;
   margin-top:4px;
   margin-left:2px;
   font-size:25px;
+  color:#0071ab;
 }
 body.slug-home #destaques h1{
-  font-size:59px;
-  line-height:59px;
-  margin-top:1px;
-  margin-left:-2px;
+  font-family:'Museo-500';
+  font-size:57px;
+  line-height:57px;
+  margin-top:2px;
+  margin-left:-1px;
 }
 body.slug-home #destaques h3{
   font: 14px "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform:uppercase;
   letter-spacing:0.4px;
   margin-left:5px;
-  margin-top:8px;
+  margin-top:9px;
 }
 /*botao saiba mais e reflexo*/
 body.slug-home #destaques ul li .more-btn-reflection,
@@ -417,11 +416,11 @@ body.slug-home #destaques ul li img.reflection{
 }
 /*reflexo da imagem*/
 body.slug-home #destaques ul li img.reflection{
-  top:242px;
+  top:266px;
 }
 /*reflexo do botao*/
 body.slug-home #destaques ul li .more-btn-reflection{
-  top:273px;
+  top:296px;
   background-image:url(images/saiba_mais_reflexo.png);
 }
 /*tampa que vai por cima dos reflexos mas por baixo da imagem e texto*/
