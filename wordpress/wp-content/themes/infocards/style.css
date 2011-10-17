@@ -388,7 +388,7 @@ body.slug-home #destaques h1{
   font-family:'Museo-500';
   font-size:57px;
   line-height:57px;
-  margin-top:2px;
+  margin-top:7px;
   margin-left:-1px;
 }
 body.slug-home #destaques h3{
@@ -397,7 +397,7 @@ body.slug-home #destaques h3{
   text-transform:uppercase;
   letter-spacing:1px;
   margin-left:5px;
-  margin-top:9px;
+  margin-top:7px;
 }
 /*botao saiba mais e reflexo*/
 body.slug-home #destaques ul li .more-btn-reflection,
