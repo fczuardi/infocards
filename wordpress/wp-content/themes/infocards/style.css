@@ -138,8 +138,12 @@ body.slug-home{
   margin-top:60px;
   position:relative;
   height:32px;
+}
+#site-header #bg-strip{
   width:100%;
+  height:32px;
   overflow:hidden;
+  position:absolute;
 }
 #site-header .strip{
   position:absolute;

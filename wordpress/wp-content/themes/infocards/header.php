@@ -73,8 +73,10 @@
 <body <?php body_class($extraclasses); ?>>
 <div id="page" class="hfeed">
 	<header id="site-header" role="banner">
-	    <div id="bg-strip-left" class="strip"></div>
-	    <div id="bg-strip-right" class="strip"></div>
+	    <div id="bg-strip">
+    	    <div id="bg-strip-left" class="strip"></div>
+    	    <div id="bg-strip-right" class="strip"></div>
+  	  </div>
 			<hgroup>
 				<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
 			</hgroup>
