@@ -18,7 +18,7 @@
       $('#destaques nav li, #destaques .panel').removeClass('active');
       $(this).parents('li').addClass('active');
       $('#destaques .panel.p'+index).addClass('active');
-      $('#destaques ul').css('left', -797 * index);
+      $('#destaques ul').css('left', -850 * index);
       $('#destaques ul').data('selected-panel', index);
       resetAutoPagination();
     });
