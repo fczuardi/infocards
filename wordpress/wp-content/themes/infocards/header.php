@@ -8,7 +8,7 @@
  * @subpackage Twenty_Eleven
  * @since Twenty Eleven 1.0
  */
-?><!DOCTYPE html>
+?><!doctype html>
 <!--[if IE 6]>
 <html id="ie6" <?php language_attributes(); ?>>
 <![endif]-->
@@ -24,6 +24,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7">
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
