@@ -60,7 +60,7 @@ foreach ($secoes_IDs as $parentID){
 <div id="primary">
   <div id="content" role="main">
     <div id="destaques">
-      <ul><?php
+      <ul data-selected-panel="0"><?php
       foreach ($destaques as $index=>$destaque){?>
         <li class="panel <?php echo $index; if ($index == 0){ echo ' active';}?>">
           <?php if(isset($destaque->picture) && isset($destaque->reflection)){ 
