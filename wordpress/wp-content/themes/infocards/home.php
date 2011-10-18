@@ -60,6 +60,7 @@ foreach ($secoes_IDs as $parentID){
 <div id="primary">
   <div id="content" role="main">
     <div id="destaques">
+      <div id="base"></div>
       <ul data-selected-panel="0"><?php
       foreach ($destaques as $index=>$destaque){?>
         <li class="panel p<?php echo $index; if ($index == 0){ echo ' active';}?>">
@@ -84,7 +85,7 @@ foreach ($secoes_IDs as $parentID){
       <nav>
         <ol><?php
         foreach ($destaques as $index=>$destaque){?>
-          <li><a data-index="<?php echo $index; ?>" href="<?php echo $destaque->first_link; ?>" class="<?php if($index == 0){echo 'active';}?>">o</a></li>
+          <li class="<?php if($index == 0){echo 'active';}?>"><a data-index="<?php echo $index; ?>" href="<?php echo $destaque->first_link; ?>">o</a></li>
         <?php 
         } ?>
         </ol>

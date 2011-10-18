@@ -13,9 +13,10 @@
 	$(document).ready( function() {
     $('#destaques nav li a').click(function(e){
       e.preventDefault();
+      this.blur();
       var index = $(this).data('index');
-      $('#destaques nav li a, #destaques .panel').removeClass('active');
-      $(this).addClass('active');
+      $('#destaques nav li, #destaques .panel').removeClass('active');
+      $(this).parents('li').addClass('active');
       $('#destaques .panel.p'+index).addClass('active');
       $('#destaques ul').css('left', -797 * index);
       $('#destaques ul').data('selected-panel', index);
