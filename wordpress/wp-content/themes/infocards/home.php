@@ -80,6 +80,7 @@ foreach ($secoes_IDs as $parentID){
       ?>
       </ul>
       <div id="base-cover"></div>
+      <div id="reflexo-mask"></div>
       <nav>
         <ol><?php
         foreach ($destaques as $index=>$destaque){?>

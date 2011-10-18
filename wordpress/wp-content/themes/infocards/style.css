@@ -368,7 +368,7 @@ body.slug-home #destaques ul li.active{
 body.slug-home #destaques ul li img,
 body.slug-home #destaques ul li div{
   position:absolute;
-  z-index:4;
+  z-index:5;
   top:23px;
 }
 body.slug-home #destaques ul li img{
@@ -430,13 +430,24 @@ body.slug-home #destaques ul li .more-btn-reflection{
   top:296px;
   background-image:url(images/saiba_mais_reflexo.png);
 }
-/*tampa que vai por cima dos reflexos mas por baixo da imagem e texto*/
-body.slug-home #base-cover{
+/*itens que vao por cima dos reflexos mas por baixo da imagem e texto*/
+body.slug-home #base-cover,
+body.slug-home #reflexo-mask{
   position:absolute;
-  z-index:3;
   height:100%;
   width:100%;
+  background-repeat:no-repeat;
+}
+body.slug-home #base-cover{
+  z-index:3;
   background-image:url(images/base_up.png);
+}
+body.slug-home #reflexo-mask{
+  z-index:4;
+  background-image:url(images/esconde_reflexo.png);
+  background-position:center top;
+  height:85px;
+  top:253px;
 }
 /*paginação*/
 body.slug-home #destaques nav{
