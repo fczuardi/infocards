@@ -62,7 +62,7 @@ foreach ($secoes_IDs as $parentID){
     <div id="destaques">
       <ul data-selected-panel="0"><?php
       foreach ($destaques as $index=>$destaque){?>
-        <li class="panel <?php echo $index; if ($index == 0){ echo ' active';}?>">
+        <li class="panel p<?php echo $index; if ($index == 0){ echo ' active';}?>">
           <?php if(isset($destaque->picture) && isset($destaque->reflection)){ 
           echo wp_get_attachment_image( $destaque->picture->ID , 'full', 0, array('class'=>"") );
           echo wp_get_attachment_image( $destaque->reflection->ID , 'full', 0, array('class'=>"reflection") ); ?>
