@@ -266,6 +266,7 @@ body.slug-home h2 a,
 }
 #colophon .abas ul li.disabled{
   opacity:0.5;
+  filter: alpha(opacity = 50);
 }
 #colophon .abas ul li.disabled a{
   cursor:default;
