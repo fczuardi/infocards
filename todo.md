@@ -1,8 +1,13 @@
 
 # Geral
 
-* (o hover dos links pode ser sempre underlined)
-
+* link subpaginas
+* botao saiba mais
+* iphone zoado
+* ordem do destaque, talvez usar pages
+* cache plugin
+* investigar se vale a pena usar CurvyCorners http://davidwalsh.name/css-rounded-corners
+* fallback da animação
 
 # Aba inferiores
 
