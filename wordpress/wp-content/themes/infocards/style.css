@@ -465,6 +465,7 @@ body.slug-home #reflexo-mask{
   background-position:center top;
   height:85px;
   top:253px;
+  left:-1px;
 }
 /*paginação*/
 body.slug-home #destaques nav{
