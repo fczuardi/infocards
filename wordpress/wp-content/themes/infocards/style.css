@@ -558,7 +558,7 @@ body, input, textarea {
   background-image:url(images/bg-home-top.png);
   background-repeat:repeat-x;
 }
-article.slug-tecnologia .entry-content section,
+article.slug-tecnologia .entry-content .section,
 article.page{
   border-radius: 12px;
   padding: 29px 23px 7px 32px;
@@ -574,10 +574,10 @@ article.slug-tecnologia{
   width:auto;
   margin:0px;
 }
-article.slug-tecnologia .entry-content section{
+article.slug-tecnologia .entry-content .section{
   padding-top:25px;
 }
-article.slug-tecnologia .entry-content section.first{
+article.slug-tecnologia .entry-content div.first{
   padding-bottom:26px;
 }
 article.slug-tecnologia .entry-content .entry-title{
