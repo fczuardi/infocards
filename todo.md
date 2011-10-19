@@ -2,7 +2,7 @@
 # Geral
 
 * OK - link subpaginas
-* botao saiba mais
+* OK - botao saiba mais
 * iphone zoado
 * ordem do destaque, talvez usar pages
 * cache plugin

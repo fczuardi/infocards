@@ -431,7 +431,7 @@ body.slug-home #destaques ul li div a{
 }
 /*botao saiba mais*/
 body.slug-home #destaques ul li div a{
-  top:130px;
+  margin-top:17px;
   background-image:url(images/saiba_mais.png);
 }
 /*parte de baixo*/
