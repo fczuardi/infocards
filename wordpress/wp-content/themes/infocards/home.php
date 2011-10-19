@@ -33,18 +33,18 @@ foreach ($destaques as $destaque){
   }
 }
 
-function getPageId($slug){
-  $args=array(
-    'name' => $slug,
-    'post_type' => 'page',
-    'post_status' => 'publish',
-    'showposts' => 1,
-    'caller_get_posts'=> 1
-  );
-  $my_posts = get_posts($args);
-  if( $my_posts ) { $result = $my_posts[0]->ID; }
-  return $result;
-}
+// function getPageId($slug){
+//   $args=array(
+//     'name' => $slug,
+//     'post_type' => 'page',
+//     'post_status' => 'publish',
+//     'showposts' => 1,
+//     'caller_get_posts'=> 1
+//   );
+//   $my_posts = get_posts($args);
+//   if( $my_posts ) { $result = $my_posts[0]->ID; }
+//   return $result;
+// }
 $secoes = array(); 
 $secoes_IDs = array(getPageId('produtos'), getPageId('servicos'), getPageId('clientes'));
 foreach ($secoes_IDs as $parentID){

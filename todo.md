@@ -1,7 +1,7 @@
 
 # Geral
 
-* link subpaginas
+* OK - link subpaginas
 * botao saiba mais
 * iphone zoado
 * ordem do destaque, talvez usar pages
