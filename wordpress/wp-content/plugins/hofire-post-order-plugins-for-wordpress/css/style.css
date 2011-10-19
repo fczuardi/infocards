@@ -1,0 +1,10 @@
+/*
+ Plugin Name: Hofire Post Order For Wordpress
+Plugin URI: http://www.hofire.com/wordpress-plugins/hofire-post-order-plugins-wordpress/
+Description: Hofire Post Order Plugin For WordPress is a simple plugin that enables administrator to modify the default order of posts or pages are displayd on your wordpress website.It is very useful when you want to custom your posts or plages order on the posts or pages list page.
+Version: 1.0
+Author: Mike Zhang
+Author URI: http://www.hofire.com
+License: GPL2
+*/
+input.save_order{width:15px;height:15px;background:url("../images/save.png") left center no-repeat;}

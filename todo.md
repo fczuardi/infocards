@@ -3,8 +3,8 @@
 
 * OK - link subpaginas
 * OK - botao saiba mais
-* iphone zoado
-* ordem do destaque, talvez usar pages
+* OK - iphone zoado
+* OK - ordem do destaque, talvez usar pages
 * cache plugin
 * investigar se vale a pena usar CurvyCorners http://davidwalsh.name/css-rounded-corners
 * fallback da animação
@@ -18,6 +18,9 @@
 
 * submenu plugin
   * http://wordpress.org/extend/plugins/gecka-submenu/
+* change post order
+  * http://wordpress.org/extend/plugins/hofire-post-order-plugins-for-wordpress/
+  * http://www.hofire.com/wordpress-plugins/hofire-post-order-plugins-wordpress/
 * paginas iniciais feitas para funcionar com o plugin page_generator
   * https://github.com/fczuardi/page_generator
 

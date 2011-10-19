@@ -8,8 +8,8 @@ get_header();
 <?php
 $args = array(
   'post_status' => 'publish',
-  'order' => 'DESC',
-  'orderby' => 'modified',
+  'order' => 'ASC',
+  'orderby' => 'menu_order',
   'tax_query' => array( array(
       'taxonomy' => 'post_format',
       'field' => 'slug',
