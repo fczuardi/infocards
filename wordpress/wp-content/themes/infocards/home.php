@@ -3,7 +3,6 @@
  * Template Name: Infocards Home
  */
 
-wp_enqueue_script( 'infocards-destaques', get_template_directory_uri() . '/js/destaques.js', array( 'jquery' ), '2011-10-17' );
 get_header();
 ?>
 <?php
@@ -33,18 +32,6 @@ foreach ($destaques as $destaque){
   }
 }
 
-// function getPageId($slug){
-//   $args=array(
-//     'name' => $slug,
-//     'post_type' => 'page',
-//     'post_status' => 'publish',
-//     'showposts' => 1,
-//     'caller_get_posts'=> 1
-//   );
-//   $my_posts = get_posts($args);
-//   if( $my_posts ) { $result = $my_posts[0]->ID; }
-//   return $result;
-// }
 $secoes = array(); 
 $secoes_IDs = array(getPageId('produtos'), getPageId('servicos'), getPageId('clientes'));
 foreach ($secoes_IDs as $parentID){

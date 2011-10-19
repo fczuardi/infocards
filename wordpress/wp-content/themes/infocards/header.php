@@ -8,6 +8,9 @@
  * @subpackage Twenty_Eleven
  * @since Twenty Eleven 1.0
  */
+
+wp_enqueue_script( 'infocards-script', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), '2011-10-19' );
+
 ?><!doctype html>
 <!--[if IE 6]>
 <html id="ie6" <?php language_attributes(); ?>>
@@ -23,8 +26,12 @@
 <!--<![endif]-->
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7">
+
+<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
