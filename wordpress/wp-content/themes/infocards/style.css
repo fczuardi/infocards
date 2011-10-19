@@ -471,7 +471,7 @@ body.slug-home #reflexo-mask{
 /*paginação*/
 body.slug-home #destaques nav{
   position:absolute;
-  bottom:1px;
+  bottom:-6px;
   right:45px;
   z-index:5;
   text-align:right;
