@@ -46,11 +46,27 @@ function destaquenavButtonClick(e){
   resetAutoPagination();
 }
 
+function fixIECorners(){
+  if ($('html').hasClass('oldie')){
+    var settings = {
+      tl: { radius: 12 },
+      tr: { radius: 12 },
+      bl: { radius: 12 },
+      br: { radius: 12 },
+      antiAlias: true
+    }
+    $('body.slug-home .box, article.slug-tecnologia .entry-content .section, article.page, blockquote').each(function(index, element){
+      curvyCorners(settings, element);
+    });
+  }
+}
+
 //init
 $(document).ready( function() {
 
   $('#destaques nav li a').click(destaquenavButtonClick);
-  changeViewport();  
+  changeViewport();
+  fixIECorners();
   if ($('body').hasClass('slug-home')){ resetAutoPagination(); }
 });
 

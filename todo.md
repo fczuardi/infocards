@@ -6,7 +6,7 @@
 * OK - iphone zoado
 * OK - ordem do destaque, talvez usar pages
 * OK - cache plugin
-* investigar se vale a pena usar CurvyCorners http://davidwalsh.name/css-rounded-corners
+* OK - investigar se vale a pena usar CurvyCorners http://davidwalsh.name/css-rounded-corners
 * fallback da animação
 
 # Aba inferiores
