@@ -9,7 +9,7 @@
  * @since Twenty Eleven 1.0
  */
 
-wp_enqueue_script( 'infocards-script', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), '2011-10-19' );
+wp_enqueue_script( 'infocards-script', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), '2011-10-19_15:58' );
 
 ?><!doctype html>
 <!--[if IE 6]>
