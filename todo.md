@@ -5,7 +5,7 @@
 * OK - botao saiba mais
 * OK - iphone zoado
 * OK - ordem do destaque, talvez usar pages
-* cache plugin
+* OK - cache plugin
 * investigar se vale a pena usar CurvyCorners http://davidwalsh.name/css-rounded-corners
 * fallback da animação
 
@@ -23,6 +23,9 @@
   * http://www.hofire.com/wordpress-plugins/hofire-post-order-plugins-wordpress/
 * paginas iniciais feitas para funcionar com o plugin page_generator
   * https://github.com/fczuardi/page_generator
+* cache plugin
+  * http://wordpress.org/extend/plugins/quick-cache/
+  * http://www.primothemes.com/post/product/quick-cache-plugin-for-wordpress/
 
 # Configuracoes necessarias
 
