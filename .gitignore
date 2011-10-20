@@ -3,4 +3,5 @@ wordpress/wp-content/themes/twentyeleven
 wordpress/wp-content/themes/twentyten
 wordpress/wp-content/plugins/page_generator
 wordpress/wp-content/uploads/2011
+wordpress/wp-content/cache
 .DS_Store
