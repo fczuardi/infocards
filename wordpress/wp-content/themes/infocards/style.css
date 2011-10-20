@@ -672,6 +672,7 @@ article.slug-produtos{
   width:278px;
   margin:0;
   float:left;
+  clear:both;
   list-style:none;
   margin-left:-3px;
 }
