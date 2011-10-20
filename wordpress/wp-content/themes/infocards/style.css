@@ -363,8 +363,6 @@ body.slug-home #destaques ul{
   margin:0px 31px 0 81px;
   width:5000%;
   left:0px;
-  transition-property:  left;
-  transition-duration:  1s;
 }
 body.slug-home #destaques ul li{
   float:left;
@@ -375,6 +373,12 @@ body.slug-home #destaques ul li{
   white-space:nowrap;
   opacity:0;
   filter: alpha(opacity = 0);
+}
+body.slug-home.ready #destaques ul{
+  transition-property:  left;
+  transition-duration:  1s;
+}
+body.slug-home.ready #destaques ul li{
   transition-property: opacity;
   transition-duration: 0.5s;
 }
