@@ -221,6 +221,8 @@ body.slug-home{
 #access .current_page_item > a,
 #access .current_page_ancestor > a {
   background: #0071ab;
+  height:20px;
+  display:block;
 }
 #access ul ul{
   display:none;
