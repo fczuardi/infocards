@@ -93,7 +93,7 @@ foreach ($secoes_IDs as $parentID){
       </ul>
     </div>
     <div class="box" id="clientes">
-      <h3>conheça nossos</h3>
+      <h3>conheça alguns</h3>
       <h2><a href="<?php echo esc_url( home_url( '/clientes' ) ); ?>">Clientes</a></h2>
       <ul>
         <?php echo $secoes[2]; ?>
