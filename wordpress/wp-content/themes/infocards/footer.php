@@ -30,7 +30,7 @@
     </div>
 	  <div class="top">
 	    <ul class="adr">
-	      <li>Endereço: <span class="street-address"><a href="http://maps.google.com/maps?q=Av.+S%C3%A3o+Gabriel,+495+S%C3%A3o+Paulo+-+SP&hl=en&ie=UTF8&ll=-23.580458,-46.670694&spn=0.01062,0.013089&sll=-23.580439,-46.670694&sspn=0.01062,0.013089&vpsrc=0&hnear=Av.+S%C3%A3o+Gabriel,+495+-+Itaim+Bibi,+S%C3%A3o+Paulo,+01435-001,+Brazil&t=m&z=17">Av. São Gabriel, 495 1º Andar</a></span> - <span class="locality">São Paulo</span> - <span class="region">SP</span></li>
+	      <li>Endereço: <span class="street-address"><a href="http://maps.google.com/maps?q=Av.+S%C3%A3o+Gabriel,+495+S%C3%A3o+Paulo+-+SP&hl=en&ie=UTF8&ll=-23.580458,-46.670694&spn=0.01062,0.013089&sll=-23.580439,-46.670694&sspn=0.01062,0.013089&vpsrc=0&hnear=Av.+S%C3%A3o+Gabriel,+495+-+Itaim+Bibi,+S%C3%A3o+Paulo,+01435-001,+Brazil&t=m&z=17" target="_blank">Av. São Gabriel, 495 1º Andar</a></span> - <span class="locality">São Paulo</span> - <span class="region">SP</span></li>
 	      <li>|</li>
 	      <li>Email: <a href="mailto:contato@infocards.com.br">contato@infocards.com.br</a></li>
 	      <li>|</li>
