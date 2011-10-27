@@ -607,6 +607,9 @@ article.slug-tecnologia .infografico{
   text-align:center;
   color:#2d84c1;
 }
+article.slug-tecnologia .infografico p{
+  width:0px;
+}
 article.page .entry-content{
   margin-top:1px;
 }
