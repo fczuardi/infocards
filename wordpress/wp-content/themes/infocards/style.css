@@ -702,6 +702,7 @@ blockquote {
   margin: 0 10px 23px -2px;
   border-radius:12px;
   padding: 26px 28px;
+	padding-bottom:1px;
 }
 .entry-content blockquote h3,
 .entry-content blockquote h4{
