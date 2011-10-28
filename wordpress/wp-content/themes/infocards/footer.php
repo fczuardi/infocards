@@ -48,11 +48,6 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 <script src="<?php echo get_template_directory_uri(); ?>/js/prefixfree.min.js" type="text/javascript"></script>
-<!--[if lt IE 8 ]>
-<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-<script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-<![endif]-->
-
 <?php wp_footer(); ?>
 
 </body>
