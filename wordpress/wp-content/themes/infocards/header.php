@@ -28,6 +28,8 @@ wp_enqueue_script( 'infocards-script', get_template_directory_uri() . '/js/scrip
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7">
 
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/images/favicon_16.png'; ?>" type="image/png" />
+
 <!-- Mobile viewport optimized: j.mp/bplateviewport -->
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
