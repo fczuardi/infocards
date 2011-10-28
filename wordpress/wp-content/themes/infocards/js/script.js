@@ -63,9 +63,7 @@ function fixIECorners(){
 
 //init
 $(document).ready( function() {
-  window.addEventListener('load',function(){
-    $('body').addClass('ready');
-  },true);
+  $(window).load(function() { $('body').addClass('ready'); });
   $('#destaques nav li a').click(destaquenavButtonClick);
   changeViewport();
   fixIECorners();
