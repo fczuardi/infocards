@@ -65,7 +65,7 @@ body{
 	width:100%;
 	height:32px;
 	overflow:hidden;
-	position:absolute;
+	position:relative;
 }
 #site-header .strip{
 	position:absolute;
@@ -97,12 +97,12 @@ body{
 }
 #site-title {
 	position:absolute;
-	background-image:url(../img/header-logo.png);
+	background-image:url(../img/header-logo.gif);
 	background-repeat:no-repeat;
 	width:143px;
 	height:92px;
 	overflow:hidden;
-	top:-75px;
+	margin-top:-95px;
 	left:50%;
 	margin-left:-303px;
 }
