@@ -1,0 +1,203 @@
+/*@font-face {
+	font-family: 'Museo-300';
+	src: url('webfonts/1211E4_1.eot');
+	src: url('webfonts/1211E4_1.eot?#iefix') format('embedded-opentype'),
+	url('webfonts/1211E4_1.woff') format('woff'),
+	url('webfonts/1211E4_1.ttf') format('truetype'),
+	url('webfonts/1211E4_1.svg#Museo-300') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Museo-500';
+	src: url('webfonts/1211E4_2.eot');
+	src: url('webfonts/1211E4_2.eot?#iefix') format('embedded-opentype'),
+	url('webfonts/1211E4_2.woff') format('woff'),
+	url('webfonts/1211E4_2.ttf') format('truetype'),
+	url('webfonts/1211E4_2.svg#Museo-500') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Museo-700';
+	src: url('../webfonts/1211E4_0.eot');
+	src: url('../webfonts/1211E4_0.eot?#iefix') format('embedded-opentype'),
+	url('../webfonts/1211E4_0.woff') format('woff'),
+	url('../webfonts/1211E4_0.ttf') format('truetype'),
+	url('../webfonts/1211E4_0.svg#Museo-700') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
+body{
+	margin:0px;
+	background-color:#DFEFF8;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-align:center;
+}
+:focus {/* remember to define focus styles! */
+	outline: 0;
+}
+/* =Structure
+----------------------------------------------- */
+#page {
+	width:100%;
+	min-width:966px;
+	overflow:hidden;
+/*  opacity:0.5;*/
+}
+#main {
+	clear: both;
+	width:878px;
+	margin:auto;
+}
+
+/* =Header
+----------------------------------------------- */
+#site-header{
+	margin-top:60px;
+	position:relative;
+	height:32px;
+}
+#site-header #bg-strip{
+	width:100%;
+	height:32px;
+	overflow:hidden;
+	position:absolute;
+}
+#site-header .strip{
+	position:absolute;
+	height:32px;
+	background-color:#92c7e7;
+}
+#site-header #bg-strip-left{
+	width:100%;
+	right:50%;
+	margin-right:303px;
+}
+#site-header #bg-strip-right{
+	width:100%;
+	left:50%;
+	margin-left:-163px;
+	text-align:left;
+	color:white;
+	text-transform:none;
+	padding:10px;
+	padding-left:14px;
+}
+#site-header #bg-strip-right a{
+	color:white;
+}
+#site-header #bg-strip-right spam{
+	padding-left:10px;
+	padding-right:10px;
+	opacity:.7;
+}
+#site-title {
+	position:absolute;
+	background-image:url(../img/header-logo.png);
+	background-repeat:no-repeat;
+	width:143px;
+	height:92px;
+	overflow:hidden;
+	top:-75px;
+	left:50%;
+	margin-left:-303px;
+}
+#site-title a{
+	display:block;
+	white-space:nowrap;
+	margin-top:-100px;
+	height:200px;
+}
+/* =Menu
+-------------------------------------------------------------- */
+
+.menu a{
+	text-transform:uppercase;
+	font-size:12px;
+	font-weight:bold;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+.menu ul{
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+#access {
+  height:32px;
+  width:966px;
+  margin: auto;
+  overflow:hidden;
+}
+#access .menu{
+  margin-left:143px;
+}
+#access ul {
+  margin-left:17px;
+}
+#access li {
+  float: left;
+  position: relative;
+  height:32px;
+  overflow:hidden;
+}
+#access a {
+  padding:6px 23px;
+}
+#access li:hover > a,
+#access a:focus {
+/*  background: #0071ab;*/
+}
+#access .current_page_item > a,
+#access .current_page_ancestor > a {
+  background: #0071ab;
+  height:20px;
+  display:block;
+}
+#access ul ul{
+  display:none;
+}
+
+/* =Conteudo
+--------------------------------------------------------------- */
+
+#login-box {
+	width:265px;
+	background-color:white;
+	border-radius:12px;
+	padding:30px;
+	padding-top:5px;
+	padding-bottom:0px;
+	margin:auto;
+	margin-top:65px;
+	text-align: right;
+}
+#login-box div{
+	padding: 15px;
+}
+#login-box div{
+	padding: 15px;
+}
+#login-box #captchaImage{
+	background-color: #F4F9FD;
+	border-radius: 12px;
+}
+#login-box #captchaImage img{
+	padding-right:35px;
+}
+#login-box #dataAndButton spam{
+	padding-right:17px;
+}
+input[type="text"],
+input[type="password"]{
+	width:165px;
+}
+input{
+	display:inline-block;
+	margin:5px;
+}
