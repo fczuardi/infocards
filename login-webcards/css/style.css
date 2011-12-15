@@ -177,11 +177,9 @@ body{
 	margin-top:65px;
 	text-align: right;
 }
-#login-box div{
-	padding: 15px;
-}
-#login-box div{
-	padding: 15px;
+#login-box #captchaImage,
+#login-box #userSenha{
+  padding: 15px;
 }
 #login-box #captchaImage{
 	background-color: #F4F9FD;

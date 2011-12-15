@@ -9,12 +9,15 @@
 		<link rel="stylesheet" href="css/style.css">
 		<meta name="generator" content="TextMate http://macromates.com/">
 		<meta name="author" content="Mauricio Zuardi">
+    <!--[if lt IE 9]>
+    <script src="js/curvycorners.js" type="text/javascript"></script>
+    <![endif]-->
 	</head>
 	<body>
 		<div id="site-header" role="banner">
 			<div id="bg-strip">
 				<div id="bg-strip-left" class="strip"></div>
-				<div id="bg-strip-right" class="strip"> WEBCards 3.0<spam>|</spam>Faça seu login abaixo ou visite nosso <a href="http://infocards.com.br/" title="Infocards" >site</a> para mais informações.</div>
+				<div id="bg-strip-right" class="strip"> WEBCards 3.0<span>|</span>Faça seu login abaixo ou visite nosso <a href="http://infocards.com.br/" title="Infocards" >site</a> para mais informações.</div>
 			</div>
 			<hgroup>
 				<h1 id="site-title"><span><a href="http://infocards.com.br/" title="Infocards" rel="home">Infocards</a></span></h1>
@@ -29,9 +32,24 @@
 				</div>
 				<div id="captchaImage">CAPTCHA <input type="text" name="cfield" id="_cfield" maxlength="15" width="100" value="" onblur="gx.getObj('', false).getUserControl('CAPVALIDContainer').CaptchaValidation('ea9e801b0d806f2398bd0c7fe3f3f0cd');"></br><img src="https://www.infocards.com.br/webcards3/static/Captcha/images/188.jpg" width="140" height="39" border="0" alt=""></div>
 				<div id="dataAndButton">
-					<spam>31/10/11 11:15</spam><input type="button" name="BTNENTER" value="   Entrar   " title="   Entrar   " class="BtnText" onclick="if( gx.evt.jsEvent(this)) {gx.evt.execEvt('E\'VALIDA\'.',this);} else return false;" onfocus="gx.evt.onfocus(this, 41,'',false,'',0)">
+					<span>31/10/11 11:15</span><input type="button" name="BTNENTER" value="   Entrar   " title="   Entrar   " class="BtnText" onclick="if( gx.evt.jsEvent(this)) {gx.evt.execEvt('E\'VALIDA\'.',this);} else return false;" onfocus="gx.evt.onfocus(this, 41,'',false,'',0)">
 				</div>
 			</div>
 		</div>
+		<!--[if lt IE 9]>
+    <script>
+settings = {
+      tl: { radius: 12 },
+      tr: { radius: 12 },
+      bl: { radius: 12 },
+      br: { radius: 12 },
+      antiAlias: true
+}
+element = document.getElementById('login-box');
+curvyCorners(settings, element);
+element = document.getElementById('captchaImage');
+curvyCorners(settings, element);
+    </script>
+    <![endif]-->
 	</body>
 </html>
