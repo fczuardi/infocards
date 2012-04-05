@@ -455,23 +455,18 @@ body.slug-home #destaques ul li .more-btn-reflection{
   background-image:url(images/saiba_mais_reflexo.png);
 }
 /*itens que vao por cima dos reflexos mas por baixo da imagem e texto*/
-body.slug-home #base-cover,
 body.slug-home #reflexo-mask{
   position:absolute;
   height:100%;
   width:100%;
   background-repeat:no-repeat;
 }
-body.slug-home #base-cover{
-  z-index:3;
-  background-image:url(images/base_up.png);
-}
 body.slug-home #reflexo-mask{
   z-index:4;
   background-image:url(images/esconde_reflexo.png);
   background-position:left top;
-  height:85px;
-  top:253px;
+  height:70px;
+  top:268px;
   left:0px;
 }
 /*paginação*/
